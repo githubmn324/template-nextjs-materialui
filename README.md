@@ -3,7 +3,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 First, run the development server:
-
 ```bash
 npm run dev
 # or
@@ -11,6 +10,17 @@ yarn dev
 # or
 pnpm dev
 ```
+dependenciesをインストール
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Material UIをStorybook上で統合する際は、preview.jsに追記する。
+詳細：https://storybook.js.org/recipes/@mui/material
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
