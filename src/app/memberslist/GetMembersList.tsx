@@ -1,3 +1,5 @@
+'use client'
+
 import Paper from '@mui/material/Paper'
 import Table from '@mui/material/Table'
 import TableBody from '@mui/material/TableBody'
@@ -7,19 +9,20 @@ import TableHead from '@mui/material/TableHead'
 import TableRow from '@mui/material/TableRow'
 import * as React from 'react'
 
-type Member = {
-  id: number
-  name: string
-  email: string
-}
-const getMembers = async () => {
-  const response = await fetch('https://jsonplaceholder.typicode.com/users')
-  const members: Member[] = await response.json()
-  return members
-}
-const GetMembersList = async () => {
-  const members = await getMembers()
-  console.log({ members: members })
+// type Member = {
+//   id: number
+//   name: string
+//   email: string
+// }
+// const getMembers = async () => {
+//   const response = await fetch('https://jsonplaceholder.typicode.com/users')
+//   const members: Member[] = await response.json()
+//   return members
+// }
+
+const GetMembersList = async ({ members }) => {
+  // const members = await getMembers()
+  // console.log({ members: members })
 
   return (
     <TableContainer component={Paper}>

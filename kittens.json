@@ -1,0 +1,28 @@
+{
+  "kittens": [
+    {
+      "name": "Mittens",
+      "description": "The pinnacle of cats. When Mittens sites in yhour lap, you feel like royalty.",
+      "age": 11,
+      "imageUrl": "http://localhost:3001/pexels-cats-coming-1444321.jpg"
+    },
+    {
+      "name": "Fluffy",
+      "description": "World's cutest kitten. Seriously. We did the research.",
+      "age": 3,
+      "imageUrl": "http://localhost:3001/pexels-larissa-barbosa-1870376.jpg"
+    },
+    {
+      "name": "Sccoter",
+      "description": "Chanses string faster than 9/10 competing kittens.,",
+      "age": 2,
+      "imageUrl": "http://localhost:3001/pexels-pixabay-45201.jpg"
+    },
+    {
+      "name": "Steve",
+      "description": "Steve is cool and just kind off hangs out.",
+      "age": 4,
+      "imageUrl": "http://localhost:3001/pexels-pixabay-416160.jpg"
+    }
+  ]
+}
